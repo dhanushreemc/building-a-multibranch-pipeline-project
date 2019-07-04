@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'uitest'}
+    agent {label 'chrome'}
     stages {
         stage('Build') {
             steps {
